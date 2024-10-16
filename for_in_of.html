@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> for (in) method </h2>
+    for in method is used in array,string,object but it will return only index number
+    <h2> for (of) method </h2>
+    for of method is used in array and string but not in object and it will return values 
+    <script>
+        //**************for-in method in array***************** //
+        // let arr=[5,6,7,8,91,2,3,4]
+        // for(i in arr){
+        //     console.log(i)
+        // } 
+
+        //****for-in method in string********//
+
+        // let str="bhargavi"
+        // for (i in str){
+        //     console.log(i)
+        // }
+     
+//**** for-in method in object ***********//
+// let details={
+//     name:"apple",
+//     age:20,
+//     city:"warangal",
+//     address:{
+//         dr_no:45-12,street:"road_3" },
+//     marks:[20,45,85]    
+// }
+// for(i in details){       // here it will returns only keys
+//     console.log(i)
+// }
+
+// let details={
+//     name:"apple",
+//     age:20,
+//     city:"warangal",
+//     address:{
+//         dr_no:45-12,street:"road_3" },
+//     marks:[20,45,85]    
+// }
+// for(i in details){           //here it will returns key values
+//     console.log(details[i])
+// }
+//**************for_of method in array**********//
+// arr=[1,"hi","hello",2,99]
+// for(i of arr){
+//     console.log(i)
+// }
+
+//*************** for_of method in string ************//
+let str="banana"
+for(i of str){
+    console.log(i)
+}
+</script>
+</body>
+</html>
